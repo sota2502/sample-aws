@@ -18,7 +18,7 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Handson_SoutaNakamori"
+    Name = "Handson_SoutaNakamori_2"
     TED = "20240829_Handson"
   }
 }
